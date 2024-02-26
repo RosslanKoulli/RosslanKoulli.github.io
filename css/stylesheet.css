@@ -27,6 +27,7 @@ main {
 h1 {
     font-size: 2em;
     margin: 0.67em 0;
+    
 }
  
 
@@ -204,7 +205,13 @@ div {
     outline-offset: -2px; /* 2 */
   }
   
+h2{
+    text-align: center;
+}
 
+p {
+    padding-left: 3em ;
+}
   
   [type="search"]::-webkit-search-decoration {
     -webkit-appearance: none;
