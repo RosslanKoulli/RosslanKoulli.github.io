@@ -13,8 +13,8 @@ body{
 }
 
 a {
-    color: #ac28ff;
-    text-shadow: 2px 2px 4px #660099;
+    color: #ff287a;
+    text-shadow: 2px 2px 4px #990091;
     text-decoration: none;
 }
 a:visited {
@@ -24,10 +24,13 @@ a:visited {
 pre {
     font-size: 15px;
 }
+
 img {
     margin-top: 10%;
     max-height: auto;
+    max-width: 2000px; 
 }
+
 pre{
     text-align: center;
 }
