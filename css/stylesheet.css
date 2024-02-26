@@ -243,7 +243,9 @@ p {
   }
 
 .container {
-  padding: 10em;
+  padding-left: 35em;
+  padding-right: 35em;
+  padding-top: 10em;
 }
 
 .blog-post {
