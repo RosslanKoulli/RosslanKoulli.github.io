@@ -1,13 +1,17 @@
 
 body{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     font-family: Mono, consolas, monospace, sans-serif;
     background-color: #000000;
     color: #ccccff;
-    margin: 1vw;
-    padding: 1vw;
+    margin: 2px;
+    padding: 2px;
     word-break: normal;
     overflow-wrap: anywhere;
 }
+
 a {
     color: #ac28ff;
     text-shadow: 2px 2px 4px #660099;
@@ -16,19 +20,28 @@ a {
 a:visited {
     text-decoration: line-through;
 }
+
 pre {
-    font-size: 14px;
+    font-size: 15px;
 }
 img {
-    max-width: 100%;
+    margin-top: 10%;
     max-height: auto;
 }
-.title-img {
-    margin-top: 15%;
+pre{
+    text-align: center;
 }
+.img-text{
+    padding: 10em;
+    text-align: center;
+}
+
 .site-text {
-    padding: 18px;
+    padding: 2px;
     color: #bb55ff;
     text-align: center;
 }
 
+.para1 {
+    text-align: center;
+} 
