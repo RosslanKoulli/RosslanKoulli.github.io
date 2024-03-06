@@ -1,50 +1,49 @@
-
-body{
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    font-family: Mono, consolas, monospace, sans-serif;
-    background-color: #000000;
-    color: #ccccff;
-    margin: 2px;
-    padding: 2px;
-    word-break: normal;
-    overflow-wrap: anywhere;
+body {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: Mono, consolas, monospace, sans-serif;
+  background-color: #000000;
+  color: #ccccff;
+  margin: 2px;
+  padding: 2px;
+  word-break: normal;
+  overflow-wrap: anywhere;
 }
 
 a {
-    color: #ff287a;
-    text-shadow: 2px 2px 4px #990091;
-    text-decoration: none;
+  color: #ff287a;
+  text-shadow: 2px 2px 4px #990091;
+  text-decoration: none;
 }
 a:visited {
-    text-decoration: line-through;
+  text-decoration: line-through;
 }
 
 pre {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 img {
-    margin-top: 10%;
-    max-height: auto;
-    max-width: 2000px; 
+  margin-top: 10%;
+  max-height: auto;
+  max-width: 2000px;
 }
 
-pre{
-    text-align: center;
+pre {
+  text-align: center;
 }
-.img-text{
-    padding: 10em;
-    text-align: center;
+.img-text {
+  padding: 10em;
+  text-align: center;
 }
 
 .site-text {
-    padding: 2px;
-    color: #bb55ff;
-    text-align: center;
+  padding: 2px;
+  color: #bb55ff;
+  text-align: center;
 }
 
 .para1 {
-    text-align: center;
-} 
+  text-align: center;
+}
