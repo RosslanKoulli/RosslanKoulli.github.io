@@ -6,8 +6,8 @@ html {
 body {
   margin: 0;
   background-image: url("/Images/DontLeaveBackground.png");
-  background-repeat: repeat;
-  background-size: 0.5em 0.5em 0.5em 0.5em;
+  background-repeat: round repeat;
+  background-size: contain; /* This ensures that the image doesn't crop*/
   padding: 25px;
 }
 
@@ -28,9 +28,6 @@ hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible;
-}
-
-div {
 }
 
 pre {
@@ -107,12 +104,6 @@ select {
   text-transform: none;
 }
 
-button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
-  -webkit-appearance: button;
-}
 
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
@@ -161,11 +152,6 @@ textarea {
   height: auto;
 }
 
-[type="search"] {
-  -webkit-appearance: textfield; /* 1 */
-  outline-offset: -2px; /* 2 */
-}
-
 h2 {
   text-align: center;
 }
@@ -195,16 +181,20 @@ template {
   display: none;
 }
 
+/*Chainging .container into */
 .container {
-  padding-left: 35em;
-  padding-right: 35em;
-  padding-top: 10em;
+  padding:1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .blog-post {
   border: 1px solid #ccc;
-  padding: 20px;
-  margin-bottom: 20px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: rgba(253, 251, 251, 0.5);
 }
 
 .blog-post h2 {
@@ -224,17 +214,28 @@ template {
 }
 
 .col-md-6 {
-  background-color: rgb(253, 251, 251, 0.5);
+  width: 100%;
+  margin-bottom: 1rem;
 }
 
-.left-click-cursor {
-  cursor: url("../cursor/CatPaw_hand.cur"), auto;
+
+/*Adding media queries that change depending on the screen size*/
+
+@media screen and (min-width: 768px) {
+  .container{
+    padding: 2rem;
+  }
+
+  .col-md-6{
+    width: calc(50% - 1rem);
+    display: inline-block;
+    vertical-align: top;
+  }
 }
 
-.right-click-cursor {
-  cursor: url("../cursor/CatPaw_help.cur"), auto;
-}
-
-.drag-cursor {
-  cursor: url("../cursor/CatPaw_busy.ani"), auto;
+/*Adding media query for the background pattern I made*/
+@media screen and (max-width:768px){
+  body{
+    background-size: 0.25em 0.25em; 
+  }
 }
