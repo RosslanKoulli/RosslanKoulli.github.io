@@ -1,0 +1,43 @@
+/*This css page is specific to the home page*/
+
+/* Home page specific body styles */
+
+body {
+    background-color: #000000;  
+    background-image: url("/Images/DontLeaveBackground.png");
+    background-repeat: round repeat;
+    background-size: contain; /* Changed from 'contain' to match the second image */
+  
+    
+  }
+  
+
+#bg {
+  background-size: auto;
+}
+
+.home-page .container{
+    background-color: transparent;
+}
+  
+
+.home-page .blog-post {
+    background-color: rgba(200, 200, 200, 0.25); 
+    border: 1px solid #ccc;
+}
+  
+
+.home-page .blog-post h2 {
+    color: #bb55ff; 
+}
+  
+.home-page .blog-post p {
+    color: #ccccff; 
+}
+
+@media screen and (max-width: 768px) {
+    body {
+      background-size: 0.25em ;
+      
+    }
+}

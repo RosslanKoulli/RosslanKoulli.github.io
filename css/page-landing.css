@@ -1,0 +1,42 @@
+/*This page is specific to the landing page*/
+
+/*Landing page body specific styles*/
+
+body.landing-page {
+    background-color: #000000;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+/*Landing page specific font sizes*/
+
+.landing-page pre {
+    font-size: clamp(14px, 2vw, 18px);
+  }
+  
+/* Landing page specific image styles */
+.landing-page img {
+    margin-top: 30vh;
+    margin-bottom: 5vh;
+    max-width: 99vw;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+  
+/* Media queries for landing page */
+@media screen and (max-width: 768px) {
+    .landing-page .img-text {
+      padding: 1rem;
+    }
+    
+    .landing-page img {
+      max-width: 95vw;
+      margin-top: 20vh;
+    }
+}
