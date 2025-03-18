@@ -1,0 +1,70 @@
+/*This css file contains page layouts and grid systems*/
+
+/*Main container layout*/
+
+.container {
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+/*Grid columns*/
+.col-md-6 {
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+
+}
+
+/*Flew layout helpers*/
+.flex-column {
+    display:flex;
+    flex-direction: column;
+}
+
+/*Text alignments*/
+.text-center{
+    text-align:center;
+}
+
+/*Common layout elements*/
+.para1 {
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+/*Image containters*/
+
+.img-text{
+    padding:2rem;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Site text containers*/
+.site-text {
+    padding:2px;
+    color: #bb55ff;
+    text-align: center;
+}
+
+/*Responsive layouts*/
+
+@media screen and (min-width:  768px) {
+    .container {
+        padding:2rem;
+    }
+    .col-md-6{
+        width:calc(50%-1rem);
+        display: inline-block;
+        vertical-align: top;
+    }
+}

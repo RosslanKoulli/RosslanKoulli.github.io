@@ -1,0 +1,130 @@
+/*This css file containts the base resets, typography and core elements*/
+
+/*Resets and basic layout */
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Mono, consolas, monospace, sans-serif;
+    color: #ccccff;
+    word-break: normal;
+    overflow-wrap: anywhere;
+    min-height: 100vh;
+
+  }
+
+/*Typography*/
+
+h1 {
+    font-size: 2em;
+    margin:0.67m 0;
+}
+
+h2{
+    text-align: center;
+    margin-top: 0;
+}
+
+p {
+    padding-left: 3em;
+}
+
+pre {
+    font-family: monospace, monospace;
+    font-size: 1em;
+    white-space: pre-wrap; /*Added this so tha it prevents overflow on mobile apps*/
+}
+
+/*text formatting*/
+b, strong {
+    font-weight: bolder;
+}
+
+small {
+    font-size: 80%;
+}
+
+sub,sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sub{
+    bottom: -0.25em;
+}
+
+sup {
+    top: -0.5em;
+}
+
+/*Links */
+a {
+    color: #ff287a;
+    text-shadow:2px 2px 4px #990091;
+    text-decoration: none;
+    background-color: black;
+}
+
+a:visited {
+    text-decoration: line-through;
+}
+
+/*Images*/
+
+img {
+    border-style: none;
+    max-width: 100%;
+    height:auto;
+    display:block;
+}
+
+/*Form elements*/
+button, 
+input, 
+optgroup, 
+select, 
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+
+button, input {
+    overflow: visible;
+}
+
+button, select {
+    text-transform: none;
+}
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+    outline: 1px dotted ButtonText;
+}
+
+/*Utilities*/
+[hidden] {
+    display: none;
+}
+
+/*Basic box model utilties*/
+
+* {
+    box-sizing: border-box;
+}
+
+hr {
+    box-sizing: content-box;
+    height:0;
+    overflow: visible;
+}

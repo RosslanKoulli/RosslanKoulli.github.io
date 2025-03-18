@@ -1,0 +1,78 @@
+/*This file contains reusable UI components*/
+
+/*Blog post component*/
+
+.blog-post {
+    border:1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.blog-post h2 {
+    margin-top: 0;
+}
+
+/*Buttom components*/
+.btn-primary {
+    background-color: #007bff;
+    color:#fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/*Form components*/
+fieldset {
+    padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+    box-sizing: border-box;
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal;
+}
+
+progress {
+    vertical-align: baseline;
+}
+
+textarea {
+    overflow: auto;
+}
+
+[type="checkbox"],
+[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+[type ="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+    height: auto;
+}
+
+[type="search"]::-webkit-search-decoration{
+    -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button{
+    -webkit-appearance: button;
+    font: inherit;
+}
+
+details {
+    display: block;
+}
+
+template {
+    display:none;
+}
