@@ -7,8 +7,7 @@ body {
     background-image: url("/Images/DontLeaveBackground.png");
     background-repeat: round repeat;
     background-size: contain; /* Changed from 'contain' to match the second image */
-  
-    
+
   }
   
 
