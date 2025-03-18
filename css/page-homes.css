@@ -11,6 +11,7 @@ body {
   }
   
 
+
 #bg {
   background-size: auto;
 }
@@ -21,7 +22,7 @@ body {
   
 
 .home-page .blog-post {
-    background-color: rgba(200, 200, 200, 0.25); 
+    background-color: rgba(200, 200, 200, 0.28); 
     border: 1px solid #ccc;
 }
   
